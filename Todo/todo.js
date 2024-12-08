@@ -7,11 +7,11 @@ const loadTask = () => {
         // if (!fs.existsSync(filePath)) { // Check if file exists
         //     fs.writeFileSync(filePath, '[]'); // Create file with an empty array
         // }
-        const dataBuffer = fs.readFileSync(filePath); // Here file will be read from give file path
+        const dataBuffer = fs.readFileSync(filePath); // File is read in the form of ASCII values
 
         // This data buffer is comes in a object so we need to convert it into a string 
-        const dataJSON = dataBuffer.toString(); // Here Data is acting as an JSON
-        return JSON.parse(dataJSON); // Now finally here data should be in a JSON format now any one can read that data
+        const dataJSON = dataBuffer.toString(); // Here ASCII values are turn into String
+        return JSON.parse(dataJSON); // Here String value should be parse into JSON formatf
     } catch (error) {
         return [];
     }
