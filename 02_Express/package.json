@@ -1,0 +1,22 @@
+{
+  "name": "02_express",
+  "version": "1.0.0",
+  "description": "Web application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.cjs",
+    "dev": "nodemon index.cjs"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Ajinkya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
