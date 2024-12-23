@@ -1,0 +1,11 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/info\",\"status\":\"201\",\"responseTime\":\"3.778\"}","timestamp":"2024-12-23T15:25:17.163Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/info\",\"status\":\"201\",\"responseTime\":\"0.657\"}","timestamp":"2024-12-23T15:25:21.147Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/info\",\"status\":\"201\",\"responseTime\":\"0.496\"}","timestamp":"2024-12-23T15:25:37.183Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/info\",\"status\":\"200\",\"responseTime\":\"0.889\"}","timestamp":"2024-12-23T15:25:51.936Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/info/1\",\"status\":\"200\",\"responseTime\":\"3.049\"}","timestamp":"2024-12-23T15:26:02.840Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"PUT\",\"url\":\"/info/1\",\"status\":\"200\",\"responseTime\":\"0.746\"}","timestamp":"2024-12-23T15:26:15.173Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/info/2\",\"status\":\"200\",\"responseTime\":\"1.684\"}","timestamp":"2024-12-23T15:26:20.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/info\",\"status\":\"201\",\"responseTime\":\"0.541\"}","timestamp":"2024-12-23T15:31:03.206Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A post request is made to add a new city","timestamp":"2024-12-23T15:31:18.478Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"Its tring to expliot web application","timestamp":"2024-12-23T15:31:18.483Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/info\",\"status\":\"201\",\"responseTime\":\"9.215\"}","timestamp":"2024-12-23T15:31:18.489Z"}

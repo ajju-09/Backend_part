@@ -1,14 +1,42 @@
-const express = require('express');
+import logger from "./logger.mjs";
+import morgan from "morgan";
+import express from 'express';
+// const express = require('express');
+// const logger = require('./logger.mjs');
+// const morgan = require('morgan');
+
+
 
 const app = express();
 const port = 3000;
 
 app.use(express.json()); // It mean we only accepts json data format
 
+// How do you need your information come to your console log
+const morganFormat = ":method :url :status :response-time ms";
+app.use(
+    morgan(morganFormat, {
+      stream: {
+        write: (message) => {
+          const logObject = {
+            method: message.split(" ")[0],
+            url: message.split(" ")[1],
+            status: message.split(" ")[2],
+            responseTime: message.split(" ")[3],
+          };
+          logger.info(JSON.stringify(logObject));
+        },
+      },
+    })
+  );
+  
+
 let data = [];
 let nextId = 1;
 
 app.post("/info", (req, res) => {
+    logger.info("A post request is made to add a new city");
+    logger.warn("Its tring to expliot web application");
     const {name, price} = req.body;
     const newInfo = {id: nextId++, name, price};
     data.push(newInfo);
